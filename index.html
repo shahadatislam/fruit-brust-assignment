@@ -1,13 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit-Brust-Assignment</title>
+    <title>Fruit-Burst-Assignment</title>
+
+    <!-- Lato Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind and Daisy UI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'common-color': '#F85559',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/69869fe5d0.js" crossorigin="anonymous"></script>
+
+
 </head>
 
-<body>
+<body class="font-lato">
+    <!-- Header Starts -->
+
+    <header class="max-w-scree n-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+
+        <!-- nav starts -->
+
+        <div class="navbar flex-row-reverse md:flex-row md:bg-common-color rounded-full p-5 md:px-12">
+            <div class="navbar flex-row-reverse md:flex-row md:flex-1">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] rounded-box">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="md:navbar-centre hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-white font-semibold">Home</a></li>
+                        <li><a class="text-white font-semibold">About Us</a></li>
+                        <li><a class="text-white font-semibold">Shop</a></li>
+                        <li><a class="text-white font-semibold">All Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <img class="w-7 md:w-10" src="./images/logo.png" alt="">
+                <a class="btn md:flex-1 btn-ghost normal-case text-lg md:text-2xl text-black md:text-white">Fruit
+                    Burst</a>
+            </div>
+
+            <div class="md:justify-end md:flex-1">
+                <button
+                    class="btn bg-white hidden p-2 md:w-60 lg:w-80 pl-6 text-[10px] text-[#12121266] md:block rounded-full">Search
+                    here
+                    <i class=" md:ml-20 lg:ml-40 w-14 fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+
+        </div>
+    </header>
+
+    <!-- Header Ends -->
+
+    <!-- Main Starts -->
+
+    <main>
+
+    </main>
+
+    <!-- Main Ends -->
+
+    <!-- Footer Starts -->
+
+    <footer>
+
+    </footer>
+
+    <!-- Footer Ends -->
 
 </body>
 
