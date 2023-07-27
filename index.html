@@ -79,7 +79,7 @@
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] rounded-box">
+                    <ul tabindex="0" class="menu menu-sm bg-white dropdown-content mt-3 z-[1] rounded-box">
                         <li><a>Home</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Shop</a></li>
@@ -104,11 +104,11 @@
             </div>
 
             <!-- Search button -->
-            <div class="md:justify-end md:flex-1">
+            <div class="md:justify-end md:items-center md:flex-1">
                 <button
-                    class="btn bg-white hidden px-1 md:w-60 lg:w-80 pl-6 text-[10px] text-[#12121266] md:block rounded-full">Search
+                    class="btn bg-white hidden px-1 md:w-60 lg:w-80 pl-2 text-[12px] text-[#12121266] md:block rounded-full">Search
                     here
-                    <i class=" md:ml-20 lg:ml-40 w-14 fa-solid fa-magnifying-glass"></i>
+                    <i class=" md:ml-20 lg:ml-40 text-xl fa-solid fa-magnifying-glass"></i>
                 </button>
             </div>
 
@@ -122,11 +122,12 @@
         ------------------------------------------------------->
 
 
-        <div class="carousel w-full md:mt-14">
+        <div class="carousel w-full md:mt-14 rounded-lg">
 
             <!-- Slide-1 -->
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="hero h-[200px] md:h-[500px]" style="background-image: url(./images/banner1.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
                             <h1 class="mb-5 text-2xl text-white md:text-5xl font-bold">Exotic tastes at your
@@ -146,6 +147,7 @@
             <!-- Slide-2 -->
             <div id="slide2" class="carousel-item relative w-full">
                 <div class="hero h-[200px] md:h-[500px]" style="background-image: url(./images/banner2.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
                             <h1 class="mb-5 text-2xl text-white md:text-5xl font-bold">Exotic tastes at your
@@ -165,6 +167,7 @@
             <!-- Slide-3 -->
             <div id="slide3" class="carousel-item relative w-full">
                 <div class="hero h-[200px] md:h-[500px]" style="background-image: url(./images/banner3.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
                             <h1 class="mb-5 text-2xl text-white md:text-5xl font-bold">Exotic tastes at your
@@ -184,6 +187,7 @@
             <!-- Slide-4 -->
             <div id="slide4" class="carousel-item relative w-full">
                 <div class="hero h-[200px] md:h-[500px]" style="background-image: url(./images/banner4.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
                             <h1 class="mb-5 text-2xl text-white md:text-5xl font-bold">Exotic tastes at your
@@ -201,26 +205,27 @@
             </div>
         </div>
 
+        <!-- under slider section -->
         <div
-            class=" flex md:flex-row relative md:-top-24 md:mx-20 md:p-3 drop-shadow-md justify-around items-center rounded-lg bg-white">
+            class="flex md:flex-row relative md:-top-24 md:mx-20 p-4 md:p-6 drop-shadow-md justify-around items-center rounded-lg bg-white">
             <div>
-                <img class="w-8 md:w-16" src="./images/fruit1.png" alt="">
+                <img class="w-[72px] md:w-[144px]" src="./images/fruit1.png" alt="">
                 <p class="text-[#12121266] text-xs md:text-base text-center">Strawberry</p>
             </div>
             <div>
-                <img class="w-8 md:w-16" src="./images/fruit2.png" alt="">
+                <img class="w-[56px] md:w-[112px]" src="./images/fruit2.png" alt="">
                 <p class="text-[#12121266] text-xs md:text-base text-center">Orange</p>
             </div>
             <div>
-                <img class="w-8 md:w-16" src="./images/fruit3.png" alt="">
+                <img class="w-[77px] md:w-[154px]" src="./images/fruit3.png" alt="">
                 <p class="text-[#12121266] text-xs md:text-base text-center">Mango</p>
             </div>
             <div>
-                <img class="w-8 md:w-16" src="./images/fruit4.png" alt="">
+                <img class="w-[73px] md:w-[146px]" src="./images/fruit4.png" alt="">
                 <p class="text-[#12121266] text-xs md:text-base text-center">Strawberry</p>
             </div>
             <div>
-                <img class="w-8 md:w-16" src="./images/fruit5.png" alt="">
+                <img class="w-[70px] md:w-[140px]" src="./images/fruit5.png" alt="">
                 <p class="text-[#12121266] text-xs md:text-base text-center">Mango</p>
             </div>
         </div>
@@ -243,10 +248,10 @@
         --------------------------------------------------------->
 
         <section>
-            <div class="flex flex-col justify-center items-center gap-5 md:flex-row">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-5 md:flex-row">
                 <!-- Description -->
                 <div class="flex-1 text-center md:text-start">
-                    <h2 class="text-2xl md:text-3xl font-black">Deal of the day</h2>
+                    <h2 class="text-2xl md:text-3xl font-black mb-5">Deal of the day</h2>
                     <p class="text-[#12121266] text-base font-normal">Contrary to popular belief, is not simply random
                         text. It has roots in a
                         piece of classical Latin
@@ -258,25 +263,25 @@
                 <div class="flex-1">
                     <div class="grid justify-end grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-mono text-4xl md:text-5xl">
                                 <span style="--value:15;"></span>:
                             </span>
                             Days
                         </div>
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-mono text-4xl md:text-5xl">
                                 <span style="--value:10;"></span>:
                             </span>
                             Hours
                         </div>
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-mono text-4xl md:text-5xl">
                                 <span style="--value:24;"></span>:
                             </span>
                             Minutes
                         </div>
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-mono text-4xl md:text-5xl">
                                 <span style="--value:57;"></span>:
                             </span>
                             Seconds
@@ -284,21 +289,22 @@
                     </div>
                 </div>
             </div>
-            </div>
 
             <!-- details section -->
 
-            <div class="mt-12 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
                 <!-- card-1 -->
                 <div class="card border-2 border-gray-200">
                     <figure class="px-10 pt-10">
-                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                        <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title border-b-2 px-4 pb-5">12.90$ - 18.85$</h2>
 
-                        <p>Apples</p>
+                        <p>Red Dragon</p>
+
+                        <!-- Rating -->
                         <div class="rating w-24 rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-common-color mask mask-star-2 mask-half-1" />
@@ -331,6 +337,8 @@
 
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
+
+                                            <!-- Rating -->
                                             <div class="rating w-24 rating-lg rating-half">
                                                 <input type="radio" name="rating-10" class="rating-hidden" />
                                                 <input type="radio" name="rating-10"
@@ -370,12 +378,14 @@
                 <!-- card-2 -->
                 <div class="card border-2 border-gray-200">
                     <figure class="px-10 pt-10">
-                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                        <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title border-b-2 px-4 pb-5">12.90$ - 18.85$</h2>
 
-                        <p>Apples</p>
+                        <p>Orange</p>
+
+                        <!-- Rating -->
                         <div class="rating w-24 rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-common-color mask mask-star-2 mask-half-1" />
@@ -408,6 +418,7 @@
 
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
+                                            <!-- Rating -->
                                             <div class="rating w-24 rating-lg rating-half">
                                                 <input type="radio" name="rating-10" class="rating-hidden" />
                                                 <input type="radio" name="rating-10"
@@ -447,12 +458,14 @@
                 <!-- card-3 -->
                 <div class="card border-2 border-gray-200">
                     <figure class="px-10 pt-10">
-                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                        <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                         <h2 class="card-title border-b-2 px-4 pb-5">12.90$ - 18.85$</h2>
 
-                        <p>Apples</p>
+                        <p>Banana</p>
+
+                        <!-- Rating -->
                         <div class="rating w-24 rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-common-color mask mask-star-2 mask-half-1" />
@@ -484,6 +497,8 @@
 
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
+
+                                            <!-- Rating -->
                                             <div class="rating w-24 rating-lg rating-half">
                                                 <input type="radio" name="rating-10" class="rating-hidden" />
                                                 <input type="radio" name="rating-10"
@@ -528,7 +543,9 @@
                     <div class="card-body items-center text-center">
                         <h2 class="card-title border-b-2 px-4 pb-5">12.90$ - 18.85$</h2>
 
-                        <p>Apples</p>
+                        <p>Apple</p>
+
+                        <!-- Rating -->
                         <div class="rating w-24 rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-common-color mask mask-star-2 mask-half-1" />
@@ -561,6 +578,8 @@
 
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
+
+                                            <!-- Rating -->
                                             <div class="rating w-24 rating-lg rating-half">
                                                 <input type="radio" name="rating-10" class="rating-hidden" />
                                                 <input type="radio" name="rating-10"
@@ -615,8 +634,9 @@
         <section class="relative my-24">
 
             <!-- Background Image -->
-            <div class="hero h-[1100px] md:h-[800px] lg:h-[600px] " style="background-image: url(./images/team.png );">
-                <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero h-[1280px] md:h-[900px] lg:h-[600px] rounded-lg"
+                style="background-image: url(./images/team.png );">
+                <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
                 <div class="absolute top-0 md:top-10 lg:top-24 hero-content text-center md:mb-16 text-neutral-content">
 
                     <!-- Description -->
@@ -629,13 +649,13 @@
 
 
                 <div
-                    class="md:relative  absolute top-44 md:top-32 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-24">
+                    class="md:relative  absolute top-44 md:top-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-24">
 
                     <!-- Member-1 -->
                     <div>
-                        <img class="w-24" src="./images/member1.png" alt="">
+                        <img class="w-[140px]" src="./images/member1.png" alt="">
                         <div class="text-center mt-5 space-y-2">
-                            <h4 class="text-white">Awlad Hossain</h4>
+                            <h4 class="text-white font-semibold">Awlad Hossain</h4>
                             <p class="text-white text-sm">Fruits Expert</p>
                             <div>
                                 <a href=""><i
@@ -650,9 +670,9 @@
 
                     <!-- Member-2 -->
                     <div>
-                        <img class="w-24" src="./images/member2.png" alt="">
+                        <img class="w-[140px]" src="./images/member2.png" alt="">
                         <div class="text-center mt-5 space-y-2">
-                            <h4 class="text-white">Awlad Hossain</h4>
+                            <h4 class="text-white font-semibold">Safia Chowdhury</h4>
                             <p class="text-white text-sm">Fruits Expert</p>
                             <div>
                                 <a href=""><i
@@ -667,9 +687,9 @@
 
                     <!-- Member-3 -->
                     <div>
-                        <img class="w-24" src="./images/member3.png" alt="">
+                        <img class="w-[140px]" src="./images/member3.png" alt="">
                         <div class="text-center mt-5 space-y-2">
-                            <h4 class="text-white">Awlad Hossain</h4>
+                            <h4 class="text-white font-semibold">Rokib Hossain</h4>
                             <p class="text-white text-sm">Fruits Expert</p>
                             <div>
                                 <a href=""><i
@@ -684,9 +704,9 @@
 
                     <!-- Member-4 -->
                     <div>
-                        <img class="w-24" src="./images/member4.png" alt="">
+                        <img class="w-[140px]" src="./images/member4.png" alt="">
                         <div class="text-center mt-5 space-y-2">
-                            <h4 class="text-white">Awlad Hossain</h4>
+                            <h4 class="text-white font-semibold">Chaity</h4>
                             <p class="text-white text-sm">Fruits Expert</p>
                             <div>
                                 <a href=""><i
@@ -721,11 +741,14 @@
             </div>
 
             <div
-                class="flex flex-col md:flex md:flex-col lg:flex-row lg:justify-center lg:items-center space-y-8 md:gap-4 lg:gap-12">
+                class="flex flex-col md:flex md:flex-col lg:flex-row lg:justify-center lg:items-center space-y-8 md:gap-4 lg:gap-6">
 
                 <!-- description part 1 -->
                 <div class="order-3 mt-8">
+
+                    <!-- part-1.1 -->
                     <div class="md:flex text-center md:text-start md:items-center mb-12 md:gap-6">
+                        <!-- svg icon -->
                         <div class="ml-40 md:ml-0 mb-6">
                             <svg class="bg-gray-200 rounded-full p-3" xmlns="http://www.w3.org/2000/svg" width="50"
                                 height="50" viewBox="0 0 24 24" fill="none">
@@ -742,7 +765,10 @@
                                 and fresh fruits.</p>
                         </div>
                     </div>
+
+                    <!-- part-1.2 -->
                     <div class="md:flex text-center md:text-start md:items-center mb-12 md:gap-6">
+                        <!-- svg icon -->
                         <div class="ml-40 md:ml-0 mb-6">
                             <svg class="bg-gray-200 rounded-full p-3" xmlns="http://www.w3.org/2000/svg" width="50"
                                 height="50" viewBox="0 0 24 24" fill="none">
@@ -752,14 +778,17 @@
                             </svg>
                         </div>
                         <div class="space-y-4">
-                            <h4 class="text-2xl font-extrabold">Dedicated Team</h4>
+                            <h4 class="text-2xl font-extrabold">Fresh is Best</h4>
                             <hr class="border-gray-400 border-b-1 ml-32 md:ml-0 w-28">
                             <p class="text-[#12121266]">Professional employees are there for you to
                                 pick the most amazing
                                 and fresh fruits.</p>
                         </div>
                     </div>
+
+                    <!-- part-1.3 -->
                     <div class="md:flex text-center md:text-start md:items-center mb-12 md:gap-6">
+                        <!-- svg icon -->
                         <div class="ml-40 md:ml-0 mb-6">
                             <svg class="bg-gray-200 rounded-full p-3" xmlns="http://www.w3.org/2000/svg" width="50"
                                 height="50" viewBox="0 0 24 24" fill="none">
@@ -809,7 +838,7 @@
                             </svg>
                         </div>
                         <div class="space-y-4">
-                            <h4 class="text-2xl font-extrabold">Dedicated Team</h4>
+                            <h4 class="text-2xl font-extrabold">Gift Certificates</h4>
                             <hr class="border-gray-400 border-b-1 ml-32 md:ml-0 w-28">
                             <p class="text-[#12121266]">Professional employees are there for you to
                                 pick the most amazing
@@ -820,21 +849,24 @@
 
                 <!-- image part -->
                 <div class="md:order-3">
-                    <img class="md:w-full md:h-[445px] lg:h-[450px] " src="./images/whychoose1.png" alt="">
+                    <img class="md:w-full md:h-[470px] lg:h-[460px] " src="./images/whychoose1.png" alt="">
                 </div>
 
                 <!-- description part 2 -->
+
                 <div class="order-3">
+
+                    <!-- part-2.1 -->
                     <div
                         class="flex flex-col flex-col-reverse md:flex-row text-center md:text-start md:items-center mb-12 gap-6">
                         <div class="space-y-4 md:text-end text-center">
                             <h4 class="text-2xl font-extrabold">Integrated Supplier</h4>
-                            <hr class="border-gray-400 border-b-1 ml-32 lg:w-24 lg:ml-64 md:w-44 w-28">
+                            <hr class="border-gray-400 border-b-1 md:ml-96 lg:w-24 lg:ml-64 ml-32 md:w-44 w-28">
                             <p class="text-[#12121266]">Professional employees are there for you to
                                 pick the most amazing
                                 and fresh fruits.</p>
                         </div>
-
+                        <!-- svg icon -->
                         <div class="ml-40 md:ml-0">
                             <svg class="bg-gray-200 rounded-full p-3" xmlns="http://www.w3.org/2000/svg" width="50"
                                 height="50" viewBox="0 0 24 24" fill="none">
@@ -878,6 +910,8 @@
                             </svg>
                         </div>
                     </div>
+
+                    <!-- part-2.2 -->
                     <div
                         class="flex flex-col flex-col-reverse md:flex-row text-center md:text-start md:items-center mb-12 gap-6">
 
@@ -888,6 +922,7 @@
                                 pick the most amazing
                                 and fresh fruits.</p>
                         </div>
+                        <!-- svg icon -->
                         <div class="ml-40 md:ml-0">
                             <svg class="bg-gray-200 rounded-full p-3" xmlns="http://www.w3.org/2000/svg" width="50"
                                 height="50" viewBox="0 0 24 24" fill="none">
@@ -900,16 +935,19 @@
                             </svg>
                         </div>
                     </div>
+
+                    <!-- part-2.3 -->
                     <div
                         class="flex flex-col flex-col-reverse md:flex-row text-center md:text-start md:items-center mb-12 gap-6">
 
                         <div class="space-y-4 md:text-end text-center">
-                            <h4 class="text-2xl font-extrabold">Dedicated Team</h4>
+                            <h4 class="text-2xl font-extrabold">The Benefits Only</h4>
                             <hr class="border-gray-400 border-b-1 md:ml-96 lg:w-24 lg:ml-64 ml-32 md:w-44 w-28">
                             <p class="text-[#12121266]">Professional employees are there for you to
                                 pick the most amazing
                                 and fresh fruits.</p>
                         </div>
+                        <!-- svg icon -->
                         <div class="ml-40 md:ml-0">
                             <svg class="bg-gray-200 rounded-full p-3" xmlns="http://www.w3.org/2000/svg" width="50"
                                 height="50 " viewBox="0 0 24 24" fill="none">
